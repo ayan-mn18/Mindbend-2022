@@ -442,13 +442,18 @@ body::-webkit-scrollbar{
         margin-top: 4rem;
     }
 
+    .display_on_phone{
+        display: block !important;
+        opacity: 1;
+    }
+
     #sponsors{
         margin-top: 30rem !important;
         display: flex;
-        flex-direction: row;
+        flex-wrap: wrap-reverse !important;
         justify-content: space-around;
         /* margin-top: 30vh; */
-        height: 60vh !important;
+        height: 140vh !important;
         padding: 0vh 4.5vw !important;
     }
     
