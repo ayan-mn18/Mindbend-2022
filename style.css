@@ -473,6 +473,10 @@ body::-webkit-scrollbar{
         width: 100% !important;
     }
 
+    .sponsors-cta{
+        margin-top: 1rem;
+    }
+
 
 }
 
