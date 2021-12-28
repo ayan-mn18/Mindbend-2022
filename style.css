@@ -413,20 +413,62 @@ body::-webkit-scrollbar{
     #about{
         display: flex;
         flex-direction: row;
+        margin-bottom: 10rem;
+        padding: 0vh 4.5vw !important;
     }
     .landing{
         width: 100vw;
-        height: 120vh;
+        height: 80vh;
+    }
+    .landing_head{
+        margin-bottom: 2rem;
+    }
+    .landing_dots{
+        margin-top: 0.8rem;
     }
     .landing_content{
         font-size: 14px;
-        line-height: 16px;
+        line-height: 1.8;
         letter-spacing: 0.02em;
+        z-index: 100;
     }
     .right-landing{
         display: none;
         opacity: 0;
     }
+
+    .innovation{
+        margin-bottom: -25rem !important;
+        margin-top: 4rem;
+    }
+
+    #sponsors{
+        margin-top: 30rem !important;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        /* margin-top: 30vh; */
+        height: 60vh !important;
+        padding: 0vh 4.5vw !important;
+    }
+    
+    .sponsors-head h3{
+        font-size: 20px;
+        font-weight: 300;
+    }
+    
+    .sponsors-head h1{
+        font-size: 60px !important;
+        text-transform: uppercase;
+    }
+    
+    .sponsors-text{
+        color: var(--color-light);
+        line-height: 1.8;
+        width: 100% !important;
+    }
+
+
 }
 
 #innovation{
