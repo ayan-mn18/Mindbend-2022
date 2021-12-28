@@ -5,7 +5,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
-body{
+html ,body{
     width: 100vw;
     overflow-x: hidden;
     transition: 0.5s ease;
@@ -22,6 +22,11 @@ body::-webkit-scrollbar{
     --white : #fff;
     --color-dark :#0A112D;
 }
+
+/* .mindbend-wrapper{
+    width: 100vw;
+    overflow-x: hidden !important;
+} */
 
 #home{
     height: 100vh;
@@ -279,21 +284,24 @@ body::-webkit-scrollbar{
         padding: 0;
     }
     .sky1{
-        top: 60vh;
-        height: 50%;
-        transform: scale(2);
+        top: 30vh;
+        height: 100%;
+        width: 100%;
+        transform: scale(2.1);
+        /* width: 100vw !important; */
         margin-right: -25%;
         /* margin-left: -25%; */
     }
     .sky2{
-        height: 50%;
+        height: 100%;
         transform: scale(2);
-        top: 72.5vh;
+        width: 100%;
+        top: 42.5vh;
         margin-left: -25%;
         margin-right: -25%;
     }
     .plane{
-        transform: scale(2.5);
+        transform: scale(3);
     }
     .balloon{
         transform: scale(2.5);
@@ -305,12 +313,13 @@ body::-webkit-scrollbar{
     .drones{
         opacity: 0;
     }
-    body{
+    html{
         overflow-x: hidden !important;
         width: 100vw !important;
     }
     #home{
         overflow-x: hidden !important;
+        width: 100vw !important;
     }
 }
 
