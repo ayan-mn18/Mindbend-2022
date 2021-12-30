@@ -239,6 +239,7 @@ body::-webkit-scrollbar{
 
 .hamburger{
     opacity: 0;
+    display: none;
     background-color: var(--color-dark);
     height: 7vh;
     width: 7vh;
@@ -250,7 +251,7 @@ body::-webkit-scrollbar{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
 .hamburger:hover .ham_lines{
@@ -277,11 +278,14 @@ body::-webkit-scrollbar{
     }
     .hamburger{
         opacity: 1;
+        cursor: pointer;
+        z-index: 1000;
     }
     .logo{
         margin: auto 0px;
         margin-left: 1rem;
         padding: 0;
+        z-index: 1000;
     }
     .sky1{
         top: 30vh;

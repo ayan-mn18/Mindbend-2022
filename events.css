@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html ,body{
+    width: 100vw;
+    overflow-x: hidden;
+    transition: 0.5s ease;
+    background-color: var(--color-dark);
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+:root{
+    --color-light: #B8C6FF;
+    --color-main : #445BB1;
+    --white : #fff;
+    --color-dark :#0A112D;
+}
+
+/* .mindbend-wrapper{
+    width: 100vw;
+    overflow-x: hidden !important;
+} */
+
+#home{
+    height: 100vh;
+    width: 100vw ;
+    /* background-image: url('./imgs/bg_home.png'); */
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+}
+
+#home::-webkit-scrollbar{
+    display: none;
+}
+
+.navbar{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content:space-between;
+    padding: 25px 0px;
+}
+
+.logo{
+    padding: 0px 10px;
+    cursor: pointer;
+    margin: auto;
+}
+
+.nav_items{
+    list-style-type: none;
+    display: flex;
+    margin:  auto ;
+    margin-right: 20rem;
+    justify-content: center;
+    color: var(--color-main);
+}
+
+.list_items{
+    margin : 0px 25px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.list_items:hover{
+    color: var(--white);
+}
+
+
+.hamburger{
+    opacity: 0;
+    background-color: var(--color-dark);
+    height: 7vh;
+    width: 7vh;
+    border-radius: 50%;
+    margin: auto 0px;
+    margin-right: 1rem;
+    padding: 0px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.hamburger:hover .ham_lines{
+    opacity: 100;
+}
+
+.ham_lines{
+    background-color: var(--color-light);
+    margin:0.175rem auto;
+    padding: auto;
+    width: 1.5rem;
+    height: 0.1rem;
+    opacity: 0.6;
+}
+
+@media (max-width : 600px){
+    .nav_items{
+        opacity: 0;
+        display: none;
+    }
+    .text{
+        opacity: 0;
+        display: none;
+    }
+    .hamburger{
+        opacity: 1;
+    }
+    .logo{
+        margin: auto 0px;
+        margin-left: 1rem;
+        padding: 0;
+    }
+}
