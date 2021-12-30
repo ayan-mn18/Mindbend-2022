@@ -16,6 +16,11 @@ body::-webkit-scrollbar{
     display: none;
 }
 
+li a{
+    text-decoration: none;
+    color: inherit;
+}
+
 :root{
     --color-light: #B8C6FF;
     --color-main : #445BB1;

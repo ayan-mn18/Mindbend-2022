@@ -6,6 +6,11 @@
     list-style: none;
 }
 
+li a{
+    text-decoration: none;
+    color: inherit;
+}
+
 body{
     width: 100vw;
     overflow-x: hidden;
@@ -68,9 +73,10 @@ body::-webkit-scrollbar{
 */
 nav{
     height: 80px;
-    width:100%;
-    padding : 0px 80px;
+    width:80vw;
+    padding : 20px 0px;
     max-width: 1600px;
+    margin: 0 auto ;
 }
 label.logo{
     color:white;
@@ -90,7 +96,7 @@ nav ul li{
     color: var(--color-main);
     cursor: pointer;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 17px;
 }
 nav ul li:hover{
     color:white;
@@ -112,7 +118,7 @@ nav ul li:hover{
     display: flex;
     flex-direction: column;
     margin:0px auto;
-    margin-top: 5.5rem;
+    margin-top: 5rem;
     width: 80vw;
     height: 30vh;
     /* position:fixed;
