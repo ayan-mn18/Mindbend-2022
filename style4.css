@@ -110,6 +110,10 @@ nav ul li:hover{
     cursor: pointer;
     display:none;
 }
+.cross{
+    opacity: 0;
+    display: none;
+}
 #check{
     display:none
 }
@@ -541,6 +545,8 @@ nav ul li:hover{
     color: var(--color-dark);
     background-color: var(--color-light);
 }
+
+
 @media (max-width: 952px){
     label.logo{
         font-size: 30px;
@@ -553,6 +559,9 @@ nav ul li:hover{
 @media (max-width:858px){
     .checkbtn{
         display:block;
+    }
+    nav{
+        padding:0 0;
     }
     ul{
         position:fixed;
@@ -570,11 +579,18 @@ nav ul li:hover{
         line-height: 30px;
     }
     #check:checked ~ ul{
-        background-color: #0A112D;
+        background-color:var(--color-dark) ;
         left:0;
+        height: 100%;
     }
-    #check:checked ~ nav{
+    /* #check:checked ~ .cross{
+        opacity: 1;
+        display: block;
     }
+    #check:checked .bars{
+        opacity: 0;
+        display: none;
+    } */
     nav{
         z-index: 10000;
     } 

@@ -55,7 +55,7 @@ li a{
 }
 
 .logo{
-    padding: 0px 10px;
+    /* padding: 0px 10px; */
     cursor: pointer;
     margin: auto;
 }
@@ -64,7 +64,7 @@ li a{
     list-style-type: none;
     display: flex;
     margin:  auto ;
-    margin-right: 20rem;
+    /* margin-right: 20rem; */
     justify-content: center;
     color: var(--color-main);
 }
