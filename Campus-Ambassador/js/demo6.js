@@ -24,7 +24,7 @@ class ShapeOverlays {
   }
   open() {
     this.isOpened = true;
-    this.elm.classList.add('');
+    this.elm.classList.add('is-opened');
     this.timeStart = Date.now();
     this.renderLoop();
   }
