@@ -389,7 +389,13 @@ a.demo--current {
 .global-menu__item--demo-6.is-opened:nth-of-type(6) {
 	transition-delay: 1.5s;
 }
+.global-menu__item--demo-6:nth-of-type(7) {
+	transition-delay: 0.1s;
+}
 
+.global-menu__item--demo-6.is-opened:nth-of-type(7) {
+	transition-delay: 1.6s;
+}
 @-webkit-keyframes intervalHamburgerBorder {
 	0% {
 		opacity: 1;
