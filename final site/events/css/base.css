@@ -191,6 +191,17 @@ a:focus {
 	position: absolute;
 	top: 0;
 	left: 0;
+	pointer-events: none;
+}
+
+.scroll{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	pointer-events: visible;
+	height: 835px;
+	width: 426px;
 }
 
 .overlay {

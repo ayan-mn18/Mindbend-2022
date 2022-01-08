@@ -23,9 +23,9 @@ function createLandscape(params){
     sceneTextures();
     render();
 
-    if(isMobile)
-      window.addEventListener("touchmove", onInputMove, {passive:false})
-    else
+    // if(isMobile)
+    //   window.addEventListener("touchmove", onInputMove, {passive:false})
+    
       window.addEventListener("mousemove", onInputMove)
     
     window.addEventListener("resize", resize)
