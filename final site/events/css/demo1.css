@@ -647,6 +647,9 @@ a:focus {
 		padding-bottom: 10em;
 		flex-direction: column;
 	}
+	.content__title{
+		margin-top: 20%;
+	}
 	
 }
 
