@@ -30,6 +30,8 @@ function createLandscape(params){
     
     window.addEventListener("resize", resize)
     resize()
+
+
   }
 
   function sceneSetup(){

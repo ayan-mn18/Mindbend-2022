@@ -189,24 +189,18 @@ a:focus {
 
 .landscape {
 	position: absolute;
+	width: 100%;
+
 	top: 0;
 	left: 0;
 	pointer-events: none;
 }
 
-.scroll{
-	position: absolute;
-	top: 0;
-	left: 0;
-	z-index: 10;
-	pointer-events: visible;
-	height: 835px;
-	width: 426px;
-}
+
 
 .overlay {
 	position: fixed;
-	width: 100%;
+	width: 100vw;
 	height: 100%;
 	top: 0;
 	left: 0;
@@ -386,38 +380,6 @@ a:focus {
 		margin-top: 3rem !important;
 	}
 }
-@media screen and (max-width: 450px){
-	.main_cards_div{
-		display: flex;
-		flex-direction: column;
-		font-size: 1rem;
-		align-items: center;
-		justify-content: center;
-	}
-	.img_div{
-		width: 350px;
-		height: 350px;
-		position: relative;
-	}	
-	.main_cards_div{
-		display: flex;
-		/* margin: 15%; */
-		position: relative;
-		top: 50vh;
-		width: 100%;
-	}
-	.navbar{
-		display: none;
-		position: absolute;
-	}
-	.cards_text{
-		width: 350px !important;
-	}
-	.cards_cta{
-		margin-top: 3rem !important;
-	}
-}
-
 
 @media screen and (max-width:550px)
 {
@@ -425,11 +387,11 @@ a:focus {
 		display: flex;
 		flex-direction: column;
 		font-size: 1rem;
-		padding: 15%;
+		/* padding: 15%; */
 	}
 	.img_div{
-		width: 400px;
-		height: 400px;
+		width: 100%;
+		height: 100%;
 		position: relative;
 	}	
 	.main_cards_div{
@@ -440,13 +402,49 @@ a:focus {
 		width: 100%;
 	}
 	.cards_text{
-		width: 400px !important;
+		width: 100% !important;
 	}
 	.heading, .desc{
 		font-size: 1rem !important;
 	}
 
 }
+
+@media screen and (max-width: 450px){
+	.main_cards_div{
+		display: flex;
+		flex-direction: column;
+		font-size: 1rem;
+		align-items: center;
+		justify-content: center;
+		/* margin: 1rem; */
+	}
+	.img_div{
+		width: 100%;
+		height: 100%;
+		position: relative;
+	}	
+	.main_cards_div{
+		display: flex;
+		/* margin: 15%; */
+		position: relative;
+		top: 90vh;
+		width: 100%;
+	}
+	.navbar{
+		display: none;
+		position: absolute;
+	}
+	.cards_text{
+		width: 100% !important;
+	}
+	.cards_cta{
+		margin-top: 3rem !important;
+	}
+}
+
+
+
 
 * {
 	/* background: #000 !important; */
