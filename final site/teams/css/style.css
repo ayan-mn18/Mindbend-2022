@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: sans-serif;
 }
 
 html ,body{
@@ -81,6 +82,7 @@ li a{
 .web-dev-team-second .card-img{
     border-radius: 50%;
     width: 100px;
+    height: 100px;
 }
 
 .card{
@@ -93,6 +95,8 @@ li a{
 .card-img{
     border-radius: 50%;
     width: 120px;
+    height: 120px;
+    
 }
 
 .dev-name{
@@ -146,6 +150,8 @@ li a{
     display: flex;
     justify-content:space-between;
     padding: 25px 0px;
+    font-size: 1.5rem;
+
 }
 
 .logo{
@@ -158,9 +164,9 @@ li a{
     list-style-type: none;
     display: flex;
     margin:  auto ;
-    margin-right: 20rem;
     justify-content: center;
-    color: var(--color-main);
+    /* color: var(--color-main); */
+    color: white;
 }
 
 .list_items{

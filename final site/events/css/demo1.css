@@ -2,6 +2,7 @@
 *::after,
 *::before {
 	box-sizing: border-box;
+	/* font-family: sans-serif; */
 }
 
 html {
@@ -57,19 +58,21 @@ body {
 
 a {
 	text-decoration: none;
-	color: #5d93d8;
-	color: var(--color-link);
+	color: white;
+	/* color: var(--color-link); */
 	outline: none;
 }
 
 a:hover,
 a:focus {
-	color: #423c2b;
-	color: var(--color-link-hover);
+	color: #c14343;
+	/* color: var(--color-link-hover); */
 	outline: none;
 }
 
-
+.description{
+    font-size: 1vw;
+}	
 
 /* Icons */
 /* main {
@@ -619,9 +622,7 @@ a:focus {
 		border-radius: 50%;
 		/* background: var(--color-link); */
 	}
-	a.demo--current {
-		/* background: var(--color-link-hover); */
-	}
+	
 	.demo span {
 		position: absolute;
 		line-height: 1;
@@ -660,6 +661,19 @@ a:focus {
 	}
 	
 }
+
+@media screen and (max-width: 1200px) {
+	.hamburger {
+		display: block;
+		opacity: 1;
+		pointer-events: auto;
+		position: fixed;
+		top: 0.5em;
+		right: 0.5em;
+		transform: scale(0.75);
+	}
+}
+
 
 .custom-flex{
 	display: flex;

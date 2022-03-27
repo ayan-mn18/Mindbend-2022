@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: sans-serif;
 }
 
 html ,body{
@@ -52,6 +53,7 @@ li a{
 .navbar{
     width: 100vw;
     height: 10vh;
+    font-size: 1.5rem;
     display: flex;
     justify-content:space-between;
     padding: 25px 0px;
@@ -67,15 +69,16 @@ li a{
     list-style-type: none;
     display: flex;
     margin:  auto ;
-    margin-right: 20rem;
     justify-content: center;
-    color: var(--color-main);
+    /* color: var(--color-main); */
+    color: white;
 }
 
 .list_items{
     margin : 0px 25px;
     font-weight: 500;
     cursor: pointer;
+    color: white;
 }
 
 .list_items:hover{
