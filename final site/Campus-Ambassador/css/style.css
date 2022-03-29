@@ -42,14 +42,15 @@ li a{
 .heading-div{
     padding: 1em;
     font-size: 2rem;
-    width: 30vw;
+    width: 80vw;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     line-height: 10vh;
     text-align: center;
-    padding: 3em;
+    padding: 1.5em;
+    padding-top: 3em;
 }
 
 .about{
@@ -178,7 +179,8 @@ li a{
     padding: 1.5em;
     display: flex;
     flex-direction: column;
-    margin: 10rem;
+    margin: 2rem;
+    margin-bottom : 10rem;
     justify-content: center;
     align-items: center;
     color: white;
