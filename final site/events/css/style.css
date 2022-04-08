@@ -123,6 +123,12 @@ li a{
     overflow-x: hidden;
 }
 
+.RAR{
+    float: right;
+    margin-left: 16px;
+    text-decoration: underline;
+}
+
 
 
 @keyframes planeAnimation {
@@ -722,4 +728,5 @@ li a{
 .shape-overlays__path:nth-of-type(4) {
 	fill: var(--path-fill-4);
 }
+
 
