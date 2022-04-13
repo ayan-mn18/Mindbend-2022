@@ -36,8 +36,8 @@ li a{
 
 .heading{
     color:#ffffff;
-    font-size: 10vw;
-    margin-top: 15vw;
+    font-size: 5vw;
+    margin-top: 2vw;
 }
 
 .heading-div{
@@ -50,62 +50,6 @@ li a{
     margin: 3em 0;
 }
 
-.web-dev-team{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 1em 5em;
-    align-items: center;
-}
-
-.web-dev-team-first{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.web-dev-team-second{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-bottom: 10%;
-    justify-content: center;
-}
-
-.web-dev-team-second > .card{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 1em 1.4em;
-}
-
-.web-dev-team-second .card-img{
-    border-radius: 50%;
-    width: 100px;
-}
-
-.card{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 1em 2em;
-}
-
-.card-img{
-    border-radius: 50%;
-    width: 120px;
-}
-
-.dev-name{
-    color: white;
-}
-
-.dev-post{
-    color: rgba(255, 255, 255, 0.5);
-    font-size: 0.8em;
-    margin-top: 0.5em;
-}
 
 .social-links{
     height: 1em;
@@ -197,6 +141,38 @@ li a{
     position: absolute;
     top: 40%;
 
+}
+
+.sponsors{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 2vw;
+}
+
+.sponsor-card{
+    display: flex;
+    flex-direction: column;
+    margin: 5vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.spn-img{
+    width: 14vw;
+}
+
+.img-div{
+    height: 14vw;
+    display: flex;
+    align-items: center;
+}
+
+.spn-text{
+    font-size: 1.9rem;
+    color: #ffffff;
+    margin-top: 0.7em;
 }
 
 @media (max-width:910px)
